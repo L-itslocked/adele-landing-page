@@ -10,19 +10,44 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200family=Allura&family=Rochester&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
     <style>
       body {
         display: block;
         margin: 0 auto;
-        background-color: #000;
+        background-color: #080c0f;
         color: white;
-      }
-      h1 {
-        text-align: center;
-        font-size: 86px;
+        font-family: "Raleway", sans-serif;
       }
       p {
         margin-left: 50px;
+        display: block;
+        text-align: left;
+      }
+      div .firstparagraph {
+        margin-top: 50%;
+      }
+      img {
+        display: block;
+        margin-left: -25%;
+        width: 100%;
+        height: auto;
+      }
+      footer {
+        font-size: 9.5px;
+      }
+      .hero h1 {
+        text-align: center;
+        font-size: 100px;
+        position: absolute;
+        margin: 35% 0 0 70%;
+        color: white;
+        font-family: "Rochester", cursive;
       }
       .hero img {
         display: block;
@@ -31,12 +56,7 @@
         background-size: cover;
         width: 100%;
         height: auto;
-      }
-      img {
-        display: block;
-        margin-left: -100px;
-        width: 150%;
-        height: auto;
+        background-position: 100%;
       }
     </style>
     <script
@@ -51,20 +71,20 @@
       <h1>Adele</h1>
       <img
         src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/067/831/original/vogue-2016-adele-wallpaper-preview.jpeg?1676505159"
-        alt="Adele laying on couch"
+        alt="Adele laying on couch, Vogue, 2016"
       />
     </div>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/067/832/original/adele-black-and-white-wallpaper-preview.jpeg?1676505184"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/067/829/original/abhijith-venugopal--ysIuPVUukA-unsplash.jpg?1676505123"
             alt="Adele black and white image"
             width="400"
           />
         </div>
         <div class="col-md-6">
-          <p>
+          <p class="firstparagraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -72,26 +92,29 @@
           </p>
         </div>
       </div>
-      <div class="col">
-        <div class="row-md-6">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
-        <div class="row-md-6">
+      <div class="row">
+        <div class="col-md-12">
           <video
-            src="https://www.youtube.com/embed/jDvYDzFOK9A"
+            src="https://youtube.com/jDvYDzFOK9A"
+            allow="accelerometer; autoplay; gyroscope; picture-in-picture;"
             controls="true"
-            width="560"
+            width="700"
             height="auto"
             title="YouTube video player - Adele - I Drink Wine (Official Video)"
           ></video>
         </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
       </div>
-      <footer>open-source code by Laura Doyon</footer>
+      <footer>open-source code on Github by Laura Doyon</footer>
     </div>
   </body>
 </html>
